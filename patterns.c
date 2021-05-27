@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<lcs50.h>
+#include<cs50.h>
 void main()
 {
 int option,rows,i,j;
