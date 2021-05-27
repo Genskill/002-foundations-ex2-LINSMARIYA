@@ -10,9 +10,12 @@ rows=get_int("");
 
 for(i=rows;i>0;i--)
 {
-for(j=0;j<i;j++)
+for(j=0;j<rows;j++)
 {
+if(i==j)
 printf("#");
+else
+printf(" ");
 }
 printf("\n");
 }
