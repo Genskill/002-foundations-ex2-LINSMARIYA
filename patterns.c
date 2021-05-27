@@ -12,10 +12,7 @@ for(i=rows;i>0;i--)
 {
 for(j=0;j<rows;j++)
 {
-if(i==j)
 printf("#");
-else
-printf(" ");
 }
 printf("\n");
 }
@@ -26,9 +23,12 @@ rows=get_int("");
 
 for(i=1;i<=rows;i++)
 {
-for(j=0;j<i;j++)
+for(j=rows;j>0;j++)
 {
+if(j>i)
 printf("#");
+  else
+    print(" ");
 }
 printf("\n");
 }
