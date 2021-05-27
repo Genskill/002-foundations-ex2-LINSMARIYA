@@ -3,12 +3,10 @@
 void main()
 {
 int option,rows,i,j;
-printf("Enter the type of pattern  ");
-gets("%d",&option);
+option=get_int("Enter the type of pattern  ");
 if(option==1)
 {
-printf("enter the rows  ");
-gets("%d",&rows);
+rows=get_int("enter the rows  ");
 for(i=rows;i>0;i--)
 {
 for(j=0;j<i;j++)
@@ -20,8 +18,7 @@ printf("\n");
 }
 else if(option==2)
 {
-printf("enter the rows  ");
-gets("%d",&rows);
+rows=get_int("enter the rows  ");
 for(i=1;i<=rows;i++)
 {
 for(j=0;j<i;j++)
