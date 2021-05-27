@@ -28,7 +28,7 @@ for(j=rows;j>0;j++)
 if(j>i)
 printf("#");
   else
-    print(" ");
+    printf(" ");
 }
 printf("\n");
 }
