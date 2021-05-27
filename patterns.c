@@ -20,15 +20,14 @@ printf("\n");
 else if(option==2)
 {
 rows=get_int("");
-
-for(i=1;i<=rows;i++)
+for(i=rows;i>0;i--)
 {
-for(j=rows;j>0;j++)
+for(j=1;j<=rows;j++)
 {
-if(j>i)
+if(j>=i)
 printf("#");
-  else
-    printf(" ");
+else
+printf(" ");
 }
 printf("\n");
 }
