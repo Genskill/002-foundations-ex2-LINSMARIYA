@@ -1,13 +1,11 @@
 #include<stdio.h>
+#include<cs50.h>
 void main()
 {
 int a,b,c,result,sum;
-printf("side1  ");
-scanf("%d",&a);
-printf("side2  ");
-scanf("%d",&b);
-printf("side3  ");
-scanf("%d",&c);
+a=get_int("side1 ");
+b=get_int("side2 ");
+c=get_int("side3 ");
 if(a>b)
 {
 if(a>c)
