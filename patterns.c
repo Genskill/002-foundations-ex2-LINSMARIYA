@@ -7,10 +7,9 @@ option=get_int("");
 if(option==1)
 {
 rows=get_int("");
-
 for(i=rows;i>0;i--)
 {
-for(j=0;j<rows;j++)
+for(j=0;j<i;j++)
 {
 printf("#");
 }
